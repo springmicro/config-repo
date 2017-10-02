@@ -15,9 +15,6 @@ spring:
     testWhileIdle: "true"
     validationQuery: "SELECT 1"
     
-security:
-  basic:
-    enabled: false
     
 server:
   port: 8081
