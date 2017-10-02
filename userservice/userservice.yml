@@ -31,4 +31,4 @@ eureka:
 security:
   oauth2:
     resource:
-      userInfoUri: http://localhost:8901/user
+      userInfoUri: http://localhost:8901/auth/user
