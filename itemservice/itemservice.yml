@@ -14,10 +14,6 @@ spring:
     password: "{cipher}de8a2140acf533afcd9e1ee6f9156226581120ed6b49187e376694db634b7bad"
     testWhileIdle: "true"
     validationQuery: "SELECT 1"
-    
-security:
-  basic:
-    enabled: false
 
 server:
   port: 8082
