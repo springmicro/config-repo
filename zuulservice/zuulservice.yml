@@ -1,7 +1,7 @@
 
-security:
-  basic:
-    enabled: false
+# security:
+#   basic:
+#     enabled: false
     
 server:
   port: 5555
@@ -30,4 +30,14 @@ logging:
     com.netflix: WARN
     org.springframework.web: WARN
     com.itemsharing: DEBUG
+
+hystrix:
+  command:
+    choose:
+      default:
+        execution:
+          timeout:
+            enabled: false
+
+itemservice.ribbon.ReadTimeout: 7000
     
