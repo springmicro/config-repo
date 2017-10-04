@@ -26,12 +26,12 @@ eureka:
     registerWithEureka: true
     fetchRegistry: true
     serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://54.172.185.62:8761/eureka/
 
 security:
  oauth2:
   resource:
-    userInfoUri: http://localhost:8901/user
+    userInfoUri: http://54.172.185.62:8901/user
     
 signing:
   key: 345345fsdgsf5345
