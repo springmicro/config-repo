@@ -31,6 +31,10 @@ logging:
     org.springframework.web: WARN
     com.itemsharing: DEBUG
 
+management:
+  security:
+    enabled: false
+
 hystrix:
   command:
     choose:
