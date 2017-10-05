@@ -6,3 +6,12 @@ logging:
     com.netflix: WARN
     com.springframework.web: WARN
     com.itemsharing: DEBUG
+
+eureka:
+  instance:
+    perferIpAddress: true
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/

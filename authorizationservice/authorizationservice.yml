@@ -34,4 +34,7 @@ eureka:
       
 signing:
   key: 345345fsdgsf5345
- 
+
+management:
+  security:
+    enabled: false
