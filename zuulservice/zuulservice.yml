@@ -35,13 +35,15 @@ management:
   security:
     enabled: false
 
-hystrix:
-  command:
-    choose:
-      default:
-        execution:
-          timeout:
-            enabled: false
+# hystrix:
+#   command:
+#     choose:
+#       default:
+#         execution:
+#           timeout:
+#             enabled: false
 
-# itemservice.ribbon.ReadTimeout: 7000
+itemservice.ribbon.ReadTimeout: 5000
+userservice.ribbon.ReadTimeout: 5000
+authorizationservice.ribbon.ReadTimeout: 5000
     
