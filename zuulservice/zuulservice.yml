@@ -43,5 +43,5 @@ hystrix:
           timeout:
             enabled: false
 
-itemservice.ribbon.ReadTimeout: 7000
+# itemservice.ribbon.ReadTimeout: 7000
     
